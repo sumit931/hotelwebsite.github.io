@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Mount INN</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+    <link rel="stylesheet" href="Mstyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.google.com/css2?
+family=poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font
+-awesome/4.4.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/mountinnlogo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+
+                <ul>
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT </a></li>
+                    <li><a href="ameneties&G.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                </ul>
+            </div>
+            <iclass="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+        <h1>WHO WE ARE </h1>
+    </section>
+
+    <!-- -------about us content------ -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>24 Years Of Warm Welcome...</h1>
+                <p>Relish the sumptuous offerings that have led to this property’s <br>
+                    ranking as Asia’s second Best City Hotel. From its design and decor,<br>
+                    from gastronomy to hospitality, this magnificent, modern palace is a true<br>
+                    reflection of the city’s multifaceted heritage. Its location mere minutes <br>
+                    from the airport and Lutyens’ Delhi as well as its undertaking of the Suraksha <br>
+                    initiative towards health and hygiene makes this 5-star hotel the ultimate choice <br>
+                    for city explorers,
+                </p>
+                <a href="" class="hero-btn red-btn">Explore now</a>
+            </div>
+            <div class="about-col">
+                <img src="images/raj-ran.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- foooooooterrrrrrrr -->
+
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i
+                        class="icon ion-social-snapchat"></i></a><a href="#"><i
+                        class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="Mukindex.html">HOME</a></li>
+                <li class="list-inline-item"><a href="about.html">ABOUT</a></li>
+                <li class="list-inline-item"><a href="ameneties&G.html">GALLERY</a></li>
+                <li class="list-inline-item"><a href="contact.html">CONTACT</a></li>
+                <li class="list-inline-item"><a href="Privacy.html">PRIVACY POLICY</a></li>
+            </ul>
+            <p class="copyright">The Mount INN © 2021</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+
+
+    <!-- Javascipt for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu() {
+            navLinks.style.right = "0";
+
+        }
+        function hidemenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
